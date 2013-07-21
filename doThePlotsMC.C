@@ -125,7 +125,7 @@ drawMyPlot(TFile *fileDATA, TFile *fileMC, TString runPeriod, TString nameCut, T
     line->Draw("same");
     
 	
-	c0->Print("effPlots/plot_"+nameCut+"MC.png");
+	c0->Print("effPlots/plot_"+nameCut+"MC"+runPeriod+".png");
     
 }
 
